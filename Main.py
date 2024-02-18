@@ -12,7 +12,7 @@ from plotly.subplots import make_subplots as sp
 st.set_page_config(page_title='Dashboard',
                    layout='wide'
 )
-local_css("style.css")
+#local_css("style.css")
 
 # st.write(
 #     "Has environment variables been set:",

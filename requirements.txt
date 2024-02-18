@@ -1,7 +1,6 @@
 pandas>=1.5.0
 plotly>=5.7.0  # Includes both plotly.express and plotly.graph_objs
 streamlit>=1.15.0
-os
 pymysql
 sqlalchemy>=1.4.36
 

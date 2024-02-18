@@ -19,13 +19,13 @@ st.set_page_config(page_title='Dashboard',
 #     os.environ["db_username"] == st.secrets["db_username"],
 # )
 
-user = st.secrets["db_username"]
-pw = st.secrets["db_password"]
+# user = st.secrets["db_username"]
+# pw = st.secrets["db_password"]
 
-engine = create_engine(
-    "mysql://{user}:{pw}@172.21.64.40:3306/cp_zendesk".format(
-    user=user, pw=pw
-    ))
+# engine = create_engine(
+#     "mysql://{user}:{pw}@172.21.64.40:3306/cp_zendesk".format(
+#     user=user, pw=pw
+#     ))
 
 # with engine.connect() as conn:
 #     result = conn.execute(text('SELECT * FROM cp_zendesk.cp_tickets_info LIMIT 20'))

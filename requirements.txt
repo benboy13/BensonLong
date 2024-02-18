@@ -3,11 +3,3 @@ plotly>=5.7.0  # Includes both plotly.express and plotly.graph_objs
 streamlit>=1.15.0
 pymysql
 sqlalchemy>=1.4.36
-
-# Optional: for custom CSS loading
-load_css==0.1.4  # Replace with the actual version you're using
-
-# Optional: for interactive development environments like Jupyter
-jupyterlab>=3.4.4  # If needed for notebook support
-
-# You can add any other external libraries your app uses here

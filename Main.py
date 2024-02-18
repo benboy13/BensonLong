@@ -7,7 +7,7 @@ import pymysql
 from sqlalchemy import create_engine, text
 import sqlalchemy
 from plotly.subplots import make_subplots as sp
-from load_css import local_css
+#from load_css import local_css
 
 st.set_page_config(page_title='Dashboard',
                    layout='wide'
